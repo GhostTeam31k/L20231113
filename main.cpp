@@ -1,6 +1,7 @@
 #include <iostream>
 #include <Vector>
 #include <list>
+#include <algorithm>
 
 #include "Player.h"
 #include "Goblin.h"
@@ -9,10 +10,23 @@
 
 using namespace std;
 
+
+//meta programing
+//template<typename T>
+//class Container
+
 int main()
 {
+
 	//STL, Container 자료저장하는 공간
+	//vector<FPlayer*> Player;
 	vector<int> IntArray;
+
+	IntArray.push_back(1);
+	for (int i = 0; i < IntArray.size(); ++i)
+	{
+		IntArray[i];
+	}
 
 	IntArray.push_back(1);
 	IntArray.push_back(2);
